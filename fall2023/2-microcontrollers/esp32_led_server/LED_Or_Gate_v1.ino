@@ -31,11 +31,3 @@ if (buttonStat1 == HIGH || buttonStat2 == HIGH )
 { digitalWrite(LEDred, HIGH);
 } else { digitalWrite(LEDred, LOW); }
 }
-
-
-
-
-// for AND &&, 
-// XOR
-// if ( ( (buttonStat1 ==HIGH) && (buttonStat2 == LOW) ) || ( (buttonStat1 == LOW) && (buttonStat2 == HIGH) ) )
-// do XOR code
